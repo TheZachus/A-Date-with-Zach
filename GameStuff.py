@@ -15,7 +15,7 @@ def TheEnd(x, theEnd =True, unlock=False):
                 v.endingsFound.append(v.endingsList[x])
 
 def Intro():
-    m.Scroll("You wake up next to the man of your dreams. He's tall, he's handsome, he's ethnic. He's Zach.", clear=True, anykey=True)
+    m.Scroll("You wake up next to the man of your dreams. He's tall, he's handsome, He's Zach.", clear=True, anykey=True)
     m.Scroll('*yawn* Good morning babe, You sleep well?', color=m.blue, clear=True, anykey=True)
 
     #first option to respond about how they slept.
@@ -44,7 +44,7 @@ def Intro():
         m.Scroll("That's great to hear! Sounds like you're ready for our big day today.", anykey=True, clear=True, color=m.blue)
     else:
         m.Scroll("Oh. Sorry babe.", anykey=True, clear=True, color=m.blue)
-        m.Scroll("He embraces you with his large, beefy, vascular, ethnic arms. He looks at you.", anykey=True, clear=True)
+        m.Scroll("He embraces you with his large, beefy, vascular arms. He looks at you.", anykey=True, clear=True)
         m.Scroll("Hope that it won't spoil the big day we have today.", anykey=True, clear=True, color=m.blue)
 
     m.Scroll("And you know what that day is today?!", clear=True, color=m.blue)
@@ -231,7 +231,7 @@ def PlayGame():
     if responseRet == 1:
         m.Scroll("*Yawn* Yep, I'm about ready for bed too. Let's get some shut eye.", anykey=True, clear=True, color=m.blue)
         m.Scroll("In your pijamas, you and Zach settle into the bed that you both woke up in earlier this morning.", clear=True)
-        m.Scroll("He wraps his large, ethnic arms around you, but he pushes you away so he can see your whole face while he speaks.", clear=True)
+        m.Scroll("He wraps his large, vascular arms around you, but he pushes you away so he can see your whole face while he speaks.", clear=True)
         m.Scroll("Hey, thank you for being with me for so long, honey. I know we've had our ups and downs, and this date wasn't perfect by any means...", anykey=True, clear=True, color=m.blue)
         m.Scroll("But it means a lot to me that you actually went with me. And that you've stuck with me this long.", anykey=True, clear=True, color=m.blue)
         m.Scroll("I hope I haven't gotten annoying yet, haha. I know you haven't. Well, sometimes actually. Anyways, I love you very much.", anykey=True, clear=True, color=m.blue)
